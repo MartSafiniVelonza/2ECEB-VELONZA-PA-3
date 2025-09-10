@@ -13,7 +13,7 @@
 1. Import the pandas library and assign it as 'pd'.
 2. Reads the 'Cars.csv' file into pandas Dataframe.
 3. Use slicing to get first five rows with odd-numbered columns.
-   - The ':5' inside the closed bracket are the first five rows.
+   - The ':5' inside the closed brackets are the first five rows.
    - '1::2' selects columns starting at index 1, stepping by 2 (i.e., columns 1, 3, 5, 7, ...).
 4. Use positional slicing to get the row that contains the ‘Model’ of ‘Mazda RX4’.
    - Inside the closed brackets, put the range of the desired rows and add stop index.
